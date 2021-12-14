@@ -72,6 +72,7 @@ h2{
 }
 @media (max-width: 600px) {
     .grid-container{
+        grid-column: 2/20;
         grid-row: 1/37;
     }
     .daniel{
