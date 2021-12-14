@@ -70,7 +70,10 @@ h2{
     margin: 15px;   
     border-radius: 10px;
 }
-@media (max-width: 600px) { 
+@media (max-width: 600px) {
+    .grid-container{
+        grid-row: 1/37;
+    }
     .daniel{
         grid-column: 1/12;
         grid-row: 1;
